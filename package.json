@@ -1,0 +1,26 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "Command line node app that utilizes Twitter, Spotify and OMDB APIs.",
+  "main": "liri.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "request": "^2.81.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerace/liri.git"
+  },
+  "author": "Taniesha Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powerace/liri/issues"
+  },
+  "homepage": "https://github.com/powerace/liri#readme"
+}

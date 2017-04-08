@@ -82,8 +82,8 @@ function logMovie (body){
 		JSON.parse(body).Language + "\n" +
 		JSON.parse(body).Plot + "\n" +
 		JSON.parse(body).Actors + "\n" +
-		JSON.parse(body).Ratings[0].Source[1] + "\n" +
-		JSON.parse(body).Website
+		JSON.parse(body).Ratings[1].Source + "\n" +
+		JSON.parse(body).Website 
 	);
 }
 
